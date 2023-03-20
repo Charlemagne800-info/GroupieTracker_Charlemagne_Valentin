@@ -5,7 +5,7 @@
 Projet Groupie Tracker d'Aix Ynov Campus
 
 ## Pour commencer
-Pour ouvrir le serveur, permettant ainsi d'avoir accès à l'API via le fichier go, il faut d'abord dans un terminal exécuter le main.go puis attendre qu'un message disant que le serveur s'est bien lancé sans problèmes...
+Pour ouvrir le serveur, permettant ainsi d'avoir accès à l'API via le fichier go, il faut d'abord dans un terminal **exécuter le main.go** puis attendre qu'un message disant que le serveur s'est bien lancé sans problèmes...
 
 ### Pré-requis
 
@@ -33,7 +33,9 @@ Il ne vous reste plus qu'à aller sur la page par défaut, un **Ctrl + Click** s
 * [Virtual Studio Code](https://code.visualstudio.com/)
 
 ## Versions
-Version 1.1
+Version actuelle : **1.1**
+Version précédente : 
+- 1.0
 
 ## Auteurs
 * **Charlemagne Valentin** https://github.com/Charlemagne800-info
