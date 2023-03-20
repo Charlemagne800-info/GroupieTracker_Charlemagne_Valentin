@@ -33,7 +33,8 @@ Il ne vous reste plus qu'à aller sur la page par défaut, un **Ctrl + Click** s
 * [Virtual Studio Code](https://code.visualstudio.com/)
 
 ## Versions
-Version actuelle : **1.1** 
+Version actuelle : **1.1**
+
 Version précédente : 
 - 1.0
 
