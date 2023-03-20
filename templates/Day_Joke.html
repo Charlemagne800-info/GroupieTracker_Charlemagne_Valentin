@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/script.js"></script>
+        <link rel="icon" type="image/png" href="../assets/clown.jpg">
+        <title>Accueil</title>
+    </head>
+    <body>
+        <header id="navbar" class="nav">
+            <a href="index.html">Accueil</a>
+            <a href="Random_Joke.html" target="_blank">Blague Aléatoire</a>
+            <a href="Day_Joke.html">Blague du jour</a>
+            <a class="icon" onclick="myFunction()">&#9776</a>
+        </header>
+        <main>
+            <img src="../assets/clowns.jpg" class="clown" alt="clown-asset" width="300px" height="200px">
+            <h1>
+                "La Blague du Jour"
+            </h1>
+            <br>
+            <h2>{{.Joke.Question}}</h2>
+            <p>...</p>
+            <h3>{{.Joke.Answer}}</h3>
+            <br>
+            <br>
+            <h4>Ah ah ! C'est vraiment la meilleure blague !</h4>
+        </main>
+    </body>
+</html>

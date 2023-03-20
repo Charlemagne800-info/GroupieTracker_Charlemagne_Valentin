@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/script.js"></script>
+        <link rel="icon" type="image/png" href="../assets/clown.jpg">
+        <title>Accueil</title>
+    </head>
+    <body>
+        <header id="navbar" class="nav">
+            <a href="index.html">Accueil</a>
+            <a href="Random_Joke.html" target="_blank">Blague Aléatoire</a>
+            <a href="Day_Joke.html">Blague du jour</a>
+            <a class="icon" onclick="myFunction()">&#9776</a>
+        </header>
+        <main>
+            <img src="../assets/clowns.jpg" class="clown" alt="clown-asset" width="300px" height="200px">
+            <h1>
+                "Blague Aléatoire"
+            </h1>
+            <br>
+            <h2>{{.Joke.Question_Random}}</h2>
+            <p>...</p>
+            <h3>{{.Joke.Answer_Random}}</h3>
+            <br>
+            <br>
+            <h4>Très drôle n'est ce pas !</h4>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <footer>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h3>Aix Yynov Campus</h3>
+                      <p>Entreprise de formation sur les métiers du digital</p>
+                    </div>
+                    <div class="col-md-3">
+                      <h3>Me suivre</h3>
+                      <ul>
+                        <li><a href="https://www.facebook.com/facebook/">Facebook</a></li>
+                        <li><a href="https://twitter.com/?lang=fr">Twitter</a></li>
+                        <li><a href="https://www.linkedin.com/in/charlemagnev-cyber/">LinkedIn</a></li>
+                        <li><a href="https://www.instagram.com/">Instagram</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </footer>
+        </main>
+    </body>
+</html>
