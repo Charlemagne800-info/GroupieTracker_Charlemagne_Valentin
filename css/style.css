@@ -151,7 +151,7 @@ header .icon {
 }
 
 main {
-    background: rgb(88, 88, 88);
+    background: rgb(154, 152, 152);
     width: 80%;
     color: white;
     min-height: 600px;
@@ -172,7 +172,7 @@ main h1 {
 }
 
 footer {
-    background-color: rgb(88, 88, 88);
+    background-color: rgb(154, 152, 152);
     color: #ffffff;
     padding: 30px 0;
     font-size: 14px;
